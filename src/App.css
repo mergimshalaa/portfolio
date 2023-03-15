@@ -6,7 +6,20 @@
 }
 
 html, #root {
-    height: 100vh;
     background: linear-gradient(to right, #1a1a1a, #303030);
 }
 
+/*välja färgen här ist #A4907C*/
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #A4907C;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1a1a1a;
+    border-radius: 15px;
+}
