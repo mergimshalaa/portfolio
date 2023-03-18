@@ -4,10 +4,11 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useMediaQuery } from 'react-responsive';
 import { FaBars } from 'react-icons/fa';
 import './menu.css';
+import { NavbarLinks } from './NavbarLinks';
 
 export function Menu() {
   const [show, setShow] = useState(false);
-  const isMobile = useMediaQuery({ maxWidth: 760 });
+  const isMobile = useMediaQuery({ maxWidth: 560 });
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -21,12 +22,11 @@ export function Menu() {
       )}
 
       <Offcanvas show={show} onHide={handleClose}>
-      <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body className="offcanvas-body-custom">
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+          <NavbarLinks handleClose={handleClose} />
         </Offcanvas.Body>
       </Offcanvas>
     </>
