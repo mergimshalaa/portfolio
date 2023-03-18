@@ -6,6 +6,7 @@ import { Projects } from './pages/Projects';
 import { Resume } from './pages/Resume';
 import { Navbar } from './components/Navbar/Navbar';
 import { Container } from 'react-bootstrap';
+import { Footer } from './components/Footer';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </Container>
+      <Footer />
     </>
   )
 }
