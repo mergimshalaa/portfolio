@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <FooterWrapper>
       <FooterText>Created by Mergim Shala 2023</FooterText>
-      <div>
+      <IconWrapper>
         <a href="https://github.com/mergimshalaa">
           <FaGithub />
         </a>
@@ -17,7 +17,7 @@ export function Footer() {
         <a href="mailto:m3rgiim@hotmail.com">
           <FaEnvelope />
         </a>
-      </div>
+      </IconWrapper>
     </FooterWrapper>
   );
 }
@@ -30,9 +30,9 @@ const FooterWrapper = styled.footer`
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
   color: #fff;
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
+
   width: 100%;
   padding: 10px;
 `;
@@ -42,3 +42,20 @@ const FooterText = styled.div`
   font-size: 13px;
 `;
 
+const IconWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  & > * {
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    color: #fff;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #b3b3b3;
+    }
+  }
+`;
