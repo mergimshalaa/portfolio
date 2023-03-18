@@ -1,0 +1,20 @@
+.menu-button {
+    background-color: #2b2b2b;
+    padding: 5px  0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+    box-shadow: 0px 3px 3px black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-button:hover {
+    background-color: rgb(164, 144, 124); 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .offcanvas-body-custom {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-left: none;
+  padding: 2rem;
+}
