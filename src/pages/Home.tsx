@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
-import { Footer } from "../components/Footer";
-import myImage from "../img/chesss.png";
 
 const words = [
   "Frontend Developer.",
