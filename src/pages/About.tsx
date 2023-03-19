@@ -1,12 +1,48 @@
-import styled from "styled-components"
+import styled from "styled-components";
+import { Carousel } from "react-bootstrap";
+import myImage from "../img/mergim.jpg";
+import futsalImage from "../img/futsal.png";
+import fotbollImage from "../img/fotboll.png";
 
 export function About() {
-    return (
-        <>
-        <Styledh1>ABOUT</Styledh1>
-        </>
-    )
+  return (
+    <>
+      <Styledh1>ABOUT</Styledh1>
+      <CarouselWrap>
+        <Carousel>
+        <Carousel.Item>
+            <StyledImg src={futsalImage} alt="soccer picture" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <StyledImg src={myImage} alt="My Image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <StyledImg src={fotbollImage} alt="playing soccer" />
+          </Carousel.Item>
+        </Carousel>
+      </CarouselWrap>
+    </>
+  );
 }
+
+const CarouselWrap = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  padding: 0px 2rem;
+
+  .carousel {
+    width: 500px;
+  }
+`;
+
+
+const StyledImg = styled.img`
+  border-radius: 3%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+`;
 
 
 const Styledh1 = styled.h1`
