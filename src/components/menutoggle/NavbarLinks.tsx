@@ -32,10 +32,26 @@ export function NavbarLinks({ handleClose }: NavbarLinksProps)  {
 const StyledLink = styled(NavLink)<{ exact?: boolean }>`
   color: white;
   margin-right: 10px;
+  margin-bottom: 30px;
   font-weight: bold;
 
-  &:hover {
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a4907c;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: all 0.7s ease;
+  outline: none;
+  position: relative;
+  
+
+  &.active {
+    color: #fff;
     text-decoration: none;
+  }
+
+  &:hover:not(.active) {
+    color: white;
   }
 `;
