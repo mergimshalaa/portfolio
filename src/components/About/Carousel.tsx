@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { Carousel } from "react-bootstrap";
-import ksamilImage from "../img/ksamil.jpg";
-import chessImage from "../img/chess.jpg";
-import fotbollImage from "../img/fotboll.png";
+import ksamilImage from "../About/img/ksamil.jpg";
+import chessImage from "../About/img/chess.jpg";
+import fotbollImage from "../About/img/fotboll.png";
 
 
 export function CarouselPics() {

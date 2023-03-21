@@ -30,9 +30,9 @@ const FooterWrapper = styled.footer`
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
   color: #fff;
-  position: absolute;
-  bottom: 0;
-
+  left:0;
+  right: 0;
+  position: relative;
   width: 100%;
   padding: 10px;
 `;
