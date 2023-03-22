@@ -5,11 +5,13 @@
     
 }
 
+
 html, #root {
-    background: linear-gradient(to right, #1a1a1a, #303030);
+    background: linear-gradient(to bottom, #1a1a1a, #594e43);
+    min-height: 100vh;
 }
 
-/*välja färgen här ist #A4907C*/
+/*välja färgen här ist #594e43*/
 
 ::-webkit-scrollbar {
     width: 7px;
