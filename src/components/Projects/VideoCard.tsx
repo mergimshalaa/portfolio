@@ -74,7 +74,7 @@ const StyledCard = styled(Card)`
 
   &:hover {
     box-shadow: 0px 8px 12px rgba(255, 255, 255, 0.4);
-    transform: translateY(-5px);
+    transform: perspective(400px) rotateX(5deg) rotateY(-3deg) scale3d(1.05, 1.05, 1.05);
   }
 
   > div {
@@ -82,7 +82,6 @@ const StyledCard = styled(Card)`
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
-
 
   @media (max-width: 668px) {
     width: 16rem;
