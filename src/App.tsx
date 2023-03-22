@@ -1,9 +1,9 @@
 import './App.css'
 import { Route, Routes } from "react-router-dom";
-import { Home } from './pages/Home';
-import { About } from './pages/About';
-import { Projects } from './pages/Projects';
-import { Resume } from './pages/Resume';
+import { Home } from './components/Home';
+import { About } from './components/About/About';
+import { Projects } from './components/Projects/Projects';
+import { Resume } from './components/Resume/Resume';
 import { Navbar } from './components/Navbar/Navbar';
 import { Container } from 'react-bootstrap';
 import { Footer } from './components/Footer';
