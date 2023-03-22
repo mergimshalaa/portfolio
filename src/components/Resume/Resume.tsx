@@ -3,6 +3,14 @@ import PageOne from '../Resume/cvimg/Page1.jpeg'
 import PageTwo from '../Resume/cvimg/Page2.jpeg'
 import resumePDF from '../Resume/mergimshala.pdf';
 
+function downloadResume() {
+  const link = document.createElement('a');
+  link.href = resumePDF;
+  link.download = 'mergimshalaCV.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
 
 export function Resume() {
   return (
@@ -13,7 +21,7 @@ export function Resume() {
         <Image src={PageTwo} alt="Page Two" />
       </GridContainer>
       <Container>
-        <StyledButton>DOWNLOAD CV</StyledButton>
+        <StyledButton onClick={downloadResume}>DOWNLOAD CV</StyledButton>
       </Container>
     </>
   );
