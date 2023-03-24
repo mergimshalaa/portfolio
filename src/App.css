@@ -7,7 +7,9 @@
 
 
 html, #root {
-    background: linear-gradient(to bottom, #1a1a1a, #594e43);
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -18,10 +20,10 @@ html, #root {
 }
 
 ::-webkit-scrollbar-track {
-    background: #A4907C;
+    background: #180000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #1a1a1a;
+    background: #1c1344;
     border-radius: 15px;
 }
