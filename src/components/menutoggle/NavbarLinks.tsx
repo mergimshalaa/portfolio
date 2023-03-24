@@ -12,7 +12,7 @@ interface NavbarLinksProps {
 export function NavbarLinks({ handleClose }: NavbarLinksProps)  {
   return (
     <Nav className="flex-column">
-      <StyledLink onClick={handleClose} to="/" exact as={NavLink}>
+      <StyledLink onClick={handleClose} to="/" exact={true.toString()} as={NavLink}>
         <FaHome style={{ marginRight: "5px" }} /> Home
       </StyledLink>
       <StyledLink onClick={handleClose} to="/about" as={NavLink} >
@@ -33,19 +33,19 @@ const StyledLink = styled(NavLink)<{ exact?: boolean }>`
   color: white;
   margin-right: 10px;
   margin-bottom: 30px;
-  font-weight: bold;
+  letter-spacing: 1px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #a4907c;
+  color: #CCCCCC;
+
   text-decoration: none;
   font-size: 1.3rem;
   transition: all 0.7s ease;
   outline: none;
   position: relative;
   
-
   &.active {
     color: #fff;
     text-decoration: none;
