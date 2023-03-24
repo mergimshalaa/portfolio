@@ -12,20 +12,20 @@ export function About() {
         <TextWrap>
           <Styledh2>Hi!</Styledh2>
           <StyledText>
-            As a passionate Front End Developer, I am actively seeking an
-            internship to enhance my skills in web development and contribute to
-            the growth of the company. My background as an elite football player
-            has taught me the importance of hard work, perseverance and
-            teamwork, which I have successfully applied in my career in
-            technology.
-          </StyledText>
-          <StyledText>
             I am studying as a Front End Developer at Medieinstitutet in
             Gothenburg and have gained a strong understanding of HTML, CSS, and
             JavaScript, as well as the frameworks Vue and React. My ambition to
             constantly learn new techniques and skills drives me to always
             strive for improvement. I am convinced that I will have the
             opportunity to do this through my internship.
+          </StyledText>
+          <StyledText>
+            As a passionate Front End Developer, I am actively seeking an
+            internship to enhance my skills in web development and contribute to
+            the growth of the company. My background as an elite football player
+            has taught me the importance of hard work, perseverance and
+            teamwork, which I have successfully applied in my career in
+            technology.
           </StyledText>
           <StyledText>
             Outside of work and studies, I enjoy traveling and playing chess.
