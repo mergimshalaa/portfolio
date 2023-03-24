@@ -28,7 +28,7 @@ const FooterWrapper = styled.footer`
   align-items: center;
   justify-content: center;
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+  background-color: rgb(7, 13, 38);
   color: #fff;
   left:0;
   right: 0;
@@ -38,8 +38,8 @@ const FooterWrapper = styled.footer`
 `;
 
 const FooterText = styled.div`
-  margin-bottom: 1px;
-  font-size: 13px;
+  margin-bottom: 2px;
+  font-size: 15px;
 `;
 
 const IconWrapper = styled.div`
