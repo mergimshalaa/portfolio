@@ -25,14 +25,13 @@ export function VideoCard({
         <StyledText>{description}</StyledText>
         <div className="text-center">
           <Link to={link}>
-          <StyledButton variant="primary">Click Here</StyledButton>
+            <StyledButton variant="primary">Click Here</StyledButton>
           </Link>
         </div>
       </Card.Body>
     </StyledCard>
   );
 }
-
 
 const Video = styled.video`
   width: 100%;
@@ -74,11 +73,12 @@ const StyledCard = styled(Card)`
 
   &:hover {
     box-shadow: 0px 8px 12px rgba(255, 255, 255, 0.4);
-    transform: perspective(400px) rotateX(5deg) rotateY(-3deg) scale3d(1.05, 1.05, 1.05);
+    transform: perspective(500px) rotateX(5deg) rotateY(-10deg)
+      scale3d(1.05, 1.05, 1.05);
   }
 
   > div {
-    background: linear-gradient(to right, #1a1a1a, #303030);
+    background-color: rgb(5 8 22);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
