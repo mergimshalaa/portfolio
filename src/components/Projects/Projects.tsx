@@ -63,7 +63,7 @@ const CardDeck = styled.div`
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  gap: 1.5rem;
+  gap: 5rem;
   width: 100%
 `;
 
