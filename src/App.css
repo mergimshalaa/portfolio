@@ -1,29 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-html, #root {
-    background-image: url(./img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+html,
+#root {
+  background-image: url(./img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
-
-/*välja färgen här ist #594e43*/
 
 ::-webkit-scrollbar {
-    width: 7px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #180000;
+  background: #180000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #1c1344;
-    border-radius: 15px;
+  background: #1c1344;
+  border-radius: 15px;
 }
