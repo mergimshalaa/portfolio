@@ -61,14 +61,20 @@ export function Home() {
 
 
 const Container = styled.div`
-  display: flex;
-  align-items: flex-end;
-  height: 60vh;
+flex-grow: 1;
+display: flex;
+align-items: center;
+justify-content: start;
+height: 81.6vh;
 
+@media (max-width: 560px) {
+  height: 81.2vh;
+}
 `;
 
 const Content = styled.div`
   margin-right: 50px;
+  margin-top 12rem;
 
   @media (max-width: 767px) {
     margin-right: 0;
