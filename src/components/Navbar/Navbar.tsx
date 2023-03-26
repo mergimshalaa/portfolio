@@ -15,7 +15,7 @@ const StyledNav = styled(Nav)`
 
 export function Navbar() {
   return (
-    <NavbarBs bg="dark" className="header sticky-top">
+    <NavbarBs className="header sticky-top shadow-lg">
       <div>
         <Menu />
       </div>
@@ -43,14 +43,13 @@ const StyledLink = styled(NavLink)`
   display: flex;
   align-items: center;
   padding: 0px 10px;
-  color: #a4907c;
+  color: #CCCCCC;
   text-decoration: none;
   font-size: 1.3rem;
   transition: all 0.7s ease;
   outline: none;
   position: relative;
   
-
   &.active {
     color: #fff;
     text-decoration: none;
@@ -62,22 +61,11 @@ const StyledLink = styled(NavLink)`
       bottom: -3px;
       width: 85%;
       height: 3px;
-      background-color: #DBE4C6;
+      background-color: #CCCCCC;
     }
   }
 
   &:hover:not(.active) {
     color: white;
-
-    &:after {
-      content: "";
-      position: absolute;
-      left: 3;
-      bottom: -3px;
-      width: 85%;
-      height: 3px;
-      background-color: #DBE4C6; 
-      transition: all 0.3s linear;
-    }
   }
 `;
