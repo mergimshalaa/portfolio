@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const words = [
   "Frontend Developer.",
-  "Future Fullstack Developer.",
+  "Soon Fullstack Developer.",
   "HTML/CSS.",
   "Javascript/Typescript.",
   "React/Vue.",
