@@ -2,19 +2,20 @@ import { Col, Container, Row } from "react-bootstrap";
 import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
 import { SiTypescript, SiReact, SiSass } from "react-icons/si";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVuejs, faNodeJs } from "@fortawesome/free-brands-svg-icons";
+import { faVuejs, faNodeJs, faNode } from "@fortawesome/free-brands-svg-icons";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import "./techlist.css";
 
 export function TechList() {
   return (
     <Container className="text-center text-icons">
-      <h2>SKILLS</h2>
+      <h2 className="header-skills">SKILLS</h2>
       <Row
         style={{
           justifyContent: "center",
           fontSize: "3rem",
           color: "white",
+          gap: '.3rem'
         }}
       >
         <Col xs={4} md={2} className="tech-icons border-white">
@@ -25,6 +26,9 @@ export function TechList() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiTypescript style={{ color: "#007ACC" }} />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <FontAwesomeIcon icon={faNode} />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <FontAwesomeIcon icon={faNodeJs} style={{ color: "#68A063" }} />
