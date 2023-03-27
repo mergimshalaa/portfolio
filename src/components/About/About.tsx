@@ -7,7 +7,7 @@ import { Footer } from "../Footer";
 export function About() {
   return (
     <>
-      <Styledh1>ABOUT</Styledh1>
+      <Styledh1>ABOUT ME</Styledh1>
       <Wrapper>
         <TextWrap>
           <Styledh2>Hi!</Styledh2>
