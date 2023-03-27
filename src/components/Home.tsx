@@ -121,7 +121,7 @@ const Subtitle = styled.h2`
   }
 
   @media (max-width: 400px) {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
 `;
 
