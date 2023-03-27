@@ -5,7 +5,10 @@ import savegbgVideo from "../Projects/videos/savegbg.mp4";
 import weatherappVideo from "../Projects/videos/weatherapp.mp4";
 import weatherappreactVideo from "../Projects/videos/weatherappreact.mp4";
 import codifywebsiteVideo from "../Projects/videos/codifywebsite.mp4";
-import { Footer } from "../Footer";
+import olstugancopyVideo from "../Projects/videos/olstugan-copy.mp4";
+import todolistVideo from "../Projects/videos/todolist.mp4";
+import loginformVideo from "../Projects/videos/loginform.mp4";
+import cvVideo from "../Projects/videos/cv.mp4";
 
 export function Projects() {
   return (
@@ -21,7 +24,7 @@ export function Projects() {
           />
           <StyledVideoCard
             title="Save Gothenburg"
-            description="Schoolproject where we as a group of five persons created a game with OOP and with library p5.js and Typescript."
+            description="Schoolproject where we as a group of six persons created a game with OOP and with library p5.js and Typescript."
             videoSrc={savegbgVideo}
             link="https://save-gothenburg.netlify.app/"
           />
@@ -32,16 +35,40 @@ export function Projects() {
             link="https://stormweatherappbypameda.netlify.app/"
           />
           <StyledVideoCard
+            title="Todo List"
+            description="Created a todo list to manage and practice Vanilla Javascript. This project was created with HTML & CSS and Javascript."
+            videoSrc={todolistVideo}
+            link="https://mergimshalaa.github.io/Todo-list/"
+          />
+          <StyledVideoCard
+            title="Resume"
+            description="Schoolproject were the task was to create an interactive & responsive resume of myself. Created with HTML & CSS and Vanilla Javascript."
+            videoSrc={cvVideo}
+            link="https://mergimshalaa.github.io/Lab-cv/"
+          />
+          <StyledVideoCard
             title="Codify - Still in process"
-            description="Created a startup for a website and it is still in process. This is created with HTML, CSS and Vanilla Javascript."
+            description="Created a startup for a website and it is still in process. This project is created with HTML, CSS and Vanilla Javascript."
             videoSrc={codifywebsiteVideo}
             link="https://mergimshalaa.github.io/Codify-website/"
           />
           <StyledVideoCard
+            title="Ölstugan Website copy"
+            description="School project with two classmates, the task was to modernize a choosen website. This project was created with HTML & CSS."
+            videoSrc={olstugancopyVideo}
+            link="https://mergimshalaa.github.io/Olstugan-copy/"
+          />
+          <StyledVideoCard
             title="Apple Website copy"
-            description="First school project were me and another class member created this apple copy working with HTML & CSS."
+            description="First school project were me and another classmate created this apple website copy. Created with HTML & CSS."
             videoSrc={applecopyVideo}
             link="https://mergimshalaa.github.io/Apple-Hemsida/"
+          />
+          <StyledVideoCard
+            title="Login Form Tesla copy"
+            description="School exercise were the task was to build Tesla login form with local storage. This project was created with HTML & CSS."
+            videoSrc={loginformVideo}
+            link="https://mergimshalaa.github.io/ovning-form/"
           />
         </CardDeck>
       </ProjectCard>
@@ -64,7 +91,7 @@ const CardDeck = styled.div`
   justify-content: space-evenly;
   align-items: center;
   gap: 5rem;
-  width: 100%
+  width: 100%;
 `;
 
 const Styledh1 = styled.h1`
@@ -99,8 +126,6 @@ const Styledh1 = styled.h1`
     padding: 6px 12px;
   }
 `;
-
-
 
 const StyledVideoCard = styled(VideoCard)`
   transition: box-shadow 0.2s ease-in-out;
