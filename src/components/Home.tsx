@@ -98,6 +98,10 @@ const Title = styled.h1`
     margin-bottom: 0.5rem;
     margin-left: 3px;
   }
+
+  @media (max-width: 380px) {
+    font-size: 2.8rem;
+  }
 `;
 
 const Subtitle = styled.h2`
@@ -122,6 +126,10 @@ const Subtitle = styled.h2`
 
   @media (max-width: 400px) {
     font-size: 1.6rem;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 1.5rem;
   }
 `;
 
