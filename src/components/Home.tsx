@@ -96,7 +96,7 @@ const Title = styled.h1`
   @media (max-width: 575px) {
     font-size: 3rem;
     margin-bottom: 0.5rem;
-    margin-left: 6px;
+    margin-left: 3px;
   }
 `;
 
@@ -116,7 +116,7 @@ const Subtitle = styled.h2`
   @media (max-width: 575px) {
     font-size: 2rem;
     height: auto;
-    margin-left: 6px;
+    margin-left: 3px;
     height: 3.5rem;
   }
 
