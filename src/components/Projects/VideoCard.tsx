@@ -17,7 +17,7 @@ export function VideoCard({
 }: VideoCardProps) {
   return (
     <StyledCard>
-      <Video muted autoPlay loop>
+      <Video muted autoPlay loop playsInline>
         <source src={videoSrc} type="video/mp4" />
       </Video>
       <Card.Body>
@@ -73,8 +73,7 @@ const StyledCard = styled(Card)`
 
   &:hover {
     box-shadow: 0px 8px 12px rgba(255, 255, 255, 0.4);
-    transform: perspective(500px) rotateX(5deg) rotateY(-10deg)
-      scale3d(1.05, 1.05, 1.05);
+    transform: translateY(-7px);
   }
 
   > div {
