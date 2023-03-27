@@ -58,9 +58,9 @@ const StyledLink = styled(NavLink)`
       content: "";
       position: absolute;
       left: 3;
-      bottom: -3px;
+      bottom: -2px;
       width: 85%;
-      height: 3px;
+      height: 2px;
       background-color: #CCCCCC;
     }
   }
