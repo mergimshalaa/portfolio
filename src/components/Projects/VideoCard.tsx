@@ -25,7 +25,7 @@ export function VideoCard({
         <StyledText>{description}</StyledText>
         <div className="text-center">
           <Link to={link}>
-            <StyledButton variant="primary">Click Here</StyledButton>
+            <StyledButton >Click Here</StyledButton>
           </Link>
         </div>
       </Card.Body>
@@ -54,13 +54,12 @@ const StyledText = styled(Card.Text)`
   color: white;
   font-size: 17px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 668px) {
     font-size: 15px;
   }
 
   @media (max-width: 500px) {
     font-size: 12px;
-    margin-bottom: 2px;
   }
 `;
 
@@ -96,6 +95,7 @@ const StyledCard = styled(Card)`
 const StyledButton = styled(Button)`
   font-size: 15px;
   padding: 10px 20px;
+  background-color: black;
 
   @media (max-width: 768px) {
     font-size: 12px;
@@ -103,8 +103,7 @@ const StyledButton = styled(Button)`
     margin-top: 15px;
   }
 
-  @media (max-width: 500px) {
-    font-size: 10px;
-    padding: 3px 15px;
+  @media (max-width: 600px) {
+    padding: 5px 15px;
   }
 `;
