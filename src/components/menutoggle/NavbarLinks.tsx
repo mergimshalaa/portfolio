@@ -48,7 +48,15 @@ const StyledLink = styled(NavLink)<{ exact?: boolean }>`
   
   &.active {
     color: #fff;
-    text-decoration: none;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        width: 50%;
+        height: 2px;
+        background-color: white;
+    }
   }
 
   &:hover:not(.active) {
