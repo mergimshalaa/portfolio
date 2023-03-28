@@ -100,10 +100,11 @@ const StyledButton = styled(Button)`
   @media (max-width: 768px) {
     font-size: 12px;
     padding: 8px 15px;
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
   @media (max-width: 600px) {
     padding: 5px 15px;
+    margin-top: 11px;
   }
 `;
