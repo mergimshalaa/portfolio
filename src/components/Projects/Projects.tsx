@@ -82,6 +82,7 @@ const ProjectCard = styled.div`
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 50px;
+  margin-bottom: 30px;
 `;
 
 const CardDeck = styled.div`
