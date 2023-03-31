@@ -9,6 +9,7 @@ import olstugancopyVideo from "../Projects/videos/olstugan-copy.mp4";
 import todolistVideo from "../Projects/videos/todolist.mp4";
 import loginformVideo from "../Projects/videos/loginform.mp4";
 import cvVideo from "../Projects/videos/cv.mp4";
+import palimedaVideo from "../Projects/videos/palimedashoes.mp4";
 
 export function Projects() {
   return (
@@ -23,8 +24,14 @@ export function Projects() {
             link="https://mergimshalaa.github.io/weatherApp/"
           />
           <StyledVideoCard
+            title="Palimeda Shoes"
+            description="School project that was created by a group of four people using React, React Bootstrap and TypeScript to build an e-commerce platform."
+            videoSrc={palimedaVideo}
+            link="https://github.com/plugga-tech/react-webshop-ts-parham-mergim-daniel-linus"
+          />
+          <StyledVideoCard
             title="Save Gothenburg"
-            description="Schoolproject where we as a group of six persons created a game with OOP and with library p5.js and Typescript."
+            description="School project where we as a group of six persons created a game with OOP and with library p5.js and Typescript."
             videoSrc={savegbgVideo}
             link="https://save-gothenburg.netlify.app/"
           />
