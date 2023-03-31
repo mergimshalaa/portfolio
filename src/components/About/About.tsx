@@ -22,17 +22,16 @@ export function About() {
             As a passionate Front End Developer, I am actively seeking an
             internship to enhance my skills in web development and contribute to
             the growth of the company. My background as an elite football player
-            has taught me the importance of hard work, perseverance and
-            teamwork which I have successfully applied in my career in
-            technology.
+            has taught me the importance of hard work, perseverance and teamwork
+            which I have successfully applied in my career in technology.
           </StyledText>
           <StyledText>
             Outside of work and studies, I enjoy traveling and playing chess.
             These are two of my favorite pastimes and they provide me with an
             escape from the stresses of daily life and allow me to unwind and
             recharge. Whether I am exploring new destinations or strategizing my
-            next move on the chessboard, these activities bring me
-            joy and a sense of calm.
+            next move on the chessboard, these activities bring me joy and a
+            sense of calm.
           </StyledText>
         </TextWrap>
 

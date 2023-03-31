@@ -15,7 +15,7 @@ export function TechList() {
           justifyContent: "center",
           fontSize: "3rem",
           color: "white",
-          gap: '.3rem'
+          gap: ".3rem",
         }}
       >
         <Col xs={4} md={2} className="tech-icons border-white">
