@@ -4,23 +4,22 @@ import ksamilImage from "../About/img/ksamil.jpg";
 import chessImage from "../About/img/chess.jpg";
 import fotbollImage from "../About/img/fotboll.png";
 
-
 export function CarouselPics() {
   return (
     <>
-        <CarouselWrap>
-          <Carousel>
+      <CarouselWrap>
+        <Carousel>
           <Carousel.Item>
-              <StyledImg src={fotbollImage} alt="playing soccer" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <StyledImg src={ksamilImage} alt="ocean" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <StyledImg src={chessImage} alt="chess pieces" />
-            </Carousel.Item>
-          </Carousel>
-        </CarouselWrap>
+            <StyledImg src={fotbollImage} alt="playing soccer" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <StyledImg src={ksamilImage} alt="ocean" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <StyledImg src={chessImage} alt="chess pieces" />
+          </Carousel.Item>
+        </Carousel>
+      </CarouselWrap>
     </>
   );
 }
@@ -29,19 +28,19 @@ const CarouselWrap = styled.div`
   flex: 1;
   margin-left: 2rem;
   margin-top: 2rem;
-  margin-left: 7rem; 
+  margin-left: 7rem;
 
   .carousel {
     width: 500px;
   }
 
   @media (max-width: 992px) {
-    margin-left: 0rem; 
+    margin-left: 0rem;
   }
 
   @media (max-width: 768px) {
-    margin: 3rem 0; 
-    margin-left: 0rem; 
+    margin: 3rem 0;
+    margin-left: 0rem;
   }
 
   @media (max-width: 520px) {
