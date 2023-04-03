@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { VideoCard } from "./VideoCard";
 import applecopyVideo from "../Projects/videos/applecopy.mp4";
 import savegbgVideo from "../Projects/videos/savegbg.mp4";
-import weatherappVideo from "../Projects/videos/weatherapp.mp4";
+import weatherAppVideo from "../Projects/videos/weatherapp.mp4";
 import weatherappreactVideo from "../Projects/videos/weatherappreact.mp4";
 import codifywebsiteVideo from "../Projects/videos/codifywebsite.mp4";
 import olstugancopyVideo from "../Projects/videos/olstugan-copy.mp4";
@@ -20,7 +20,7 @@ export function Projects() {
           <StyledVideoCard
             title="Weather App"
             description="This was my first project working with API, I created a weather app displaying current weather with the date."
-            videoSrc={weatherappVideo}
+            videoSrc={weatherAppVideo}
             link="https://mergimshalaa.github.io/weatherApp/"
           />
           <StyledVideoCard
