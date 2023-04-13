@@ -61,6 +61,21 @@ const TextWrap = styled.div`
   @media (max-width: 768px) {
     margin-right: 0;
   }
+
+  animation: slide-in 1s ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 `;
 
 const Styledh2 = styled.h2`
