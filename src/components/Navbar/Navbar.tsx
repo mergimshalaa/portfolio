@@ -43,7 +43,7 @@ const StyledLink = styled(NavLink)`
   display: flex;
   align-items: center;
   padding: 0px 10px;
-  color: #CCCCCC;
+  color: #999999;
   text-decoration: none;
   font-size: 1.3rem;
   transition: all 0.7s ease;
@@ -53,16 +53,7 @@ const StyledLink = styled(NavLink)`
   &.active {
     color: #fff;
     text-decoration: none;
-
-    &:after {
-      content: "";
-      position: absolute;
-      left: 3;
-      bottom: -2px;
-      width: 85%;
-      height: 2px;
-      background-color: #CCCCCC;
-    }
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   }
 
   &:hover:not(.active) {

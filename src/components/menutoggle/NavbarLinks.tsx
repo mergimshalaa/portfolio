@@ -38,7 +38,7 @@ const StyledLink = styled(NavLink)<{ exact?: boolean }>`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #CCCCCC;
+  color: #999999;
 
   text-decoration: none;
   font-size: 1.3rem;
@@ -48,15 +48,7 @@ const StyledLink = styled(NavLink)<{ exact?: boolean }>`
   
   &.active {
     color: #fff;
-
-      &::after {
-        content: '';
-        position: absolute;
-        bottom: -4px;
-        width: 50%;
-        height: 2px;
-        background-color: white;
-    }
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   }
 
   &:hover:not(.active) {
