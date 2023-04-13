@@ -20,7 +20,7 @@ export function Menu() {
     <>
       {isMobile && (
         <Button className="menu-button" onClick={handleShow}>
-          <FaBars style={{ color: 'white', fontSize: '1.2rem' }} />
+          <FaBars style={{ color: 'white', fontSize: '1.5rem' }} />
         </Button>
       )}
 
