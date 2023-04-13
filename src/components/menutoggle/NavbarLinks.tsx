@@ -38,7 +38,7 @@ const StyledLink = styled(NavLink)<{ exact?: boolean }>`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #999999;
+  color: #B3B3B3;
 
   text-decoration: none;
   font-size: 1.3rem;

@@ -43,7 +43,7 @@ const StyledLink = styled(NavLink)`
   display: flex;
   align-items: center;
   padding: 0px 10px;
-  color: #999999;
+  color: #B3B3B3;
   text-decoration: none;
   font-size: 1.3rem;
   transition: all 0.7s ease;
