@@ -62,7 +62,7 @@ const TextWrap = styled.div`
     margin-right: 0;
   }
 
-  animation: slide-in 1s ease-out;
+  animation: slide-in 1.5s ease-out;
   animation-fill-mode: forwards;
   opacity: 0;
 
