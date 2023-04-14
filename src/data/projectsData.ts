@@ -1,6 +1,6 @@
 import applecopyVideo from "../pages/Projects/videos/applecopy.mp4";
 import savegbgVideo from "../pages/Projects/videos/savegbg.mp4";
-import weatherAppVideo from "../pages/Projects/videos/weatherapp.mp4";
+import weatherAppVideo from "../pages/Projects/videos/weatherApp.mp4";
 import weatherappreactVideo from "../pages/Projects/videos/weatherappreact.mp4";
 import codifywebsiteVideo from "../pages/Projects/videos/codifywebsite.mp4";
 import olstugancopyVideo from "../pages/Projects/videos/olstugan-copy.mp4";
