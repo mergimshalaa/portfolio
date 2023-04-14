@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { CarouselPics } from "./Carousel";
 import { TechList } from "./TechList";
 import { ToolsList } from "./ToolsList";
-import { Footer } from "../Footer";
 
 export function About() {
   return (
