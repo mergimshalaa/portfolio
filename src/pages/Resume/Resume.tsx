@@ -40,17 +40,7 @@ const Styledh1 = styled.h1`
   border-radius: 4px;
   display: inline-block;
   letter-spacing: 2px;
-  opacity: 0;
-  animation: fadeIn 1.5s ease-in-out forwards;
 
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
   @media (max-width: 768px) {
     font-size: 28px;
     padding: 10px 16px;
