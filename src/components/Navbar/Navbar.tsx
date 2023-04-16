@@ -1,37 +1,36 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
+import { FaFileAlt, FaHome, FaProjectDiagram, FaUser } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { FaHome, FaUser, FaProjectDiagram, FaFileAlt } from "react-icons/fa";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./navbar.css";
 import { Menu } from "../menutoggle/ToggleMenu";
-
+import "./navbar.css";
 
 const StyledNav = styled(Nav)`
-  @media (max-width: 560px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `;
 
 export function Navbar() {
   return (
-    <NavbarBs className="header sticky-top shadow-lg">
+    <NavbarBs className="header sticky-top">
       <div>
         <Menu />
       </div>
-      <Container>
-        <StyledNav className="me-auto">
+      <Container className="d-flex justify-content-end align-items-center flex-grow-1" style={{paddingRight: '55px'}}>
+        <StyledNav>
           <StyledLink to="/" as={NavLink}>
-            <FaHome style={{ marginRight: "5px" }} /> Home
+            <FaHome style={{ marginRight: "8px" }} /> Home
           </StyledLink>
           <StyledLink to="/about" as={NavLink}>
-            <FaUser style={{ marginRight: "5px" }} /> About
+            <FaUser style={{ marginRight: "8px" }} /> About
           </StyledLink>
           <StyledLink to="/projects" as={NavLink}>
-            <FaProjectDiagram style={{ marginRight: "5px" }} /> Projects
+            <FaProjectDiagram style={{ marginRight: "8px" }} /> Projects
           </StyledLink>
           <StyledLink to="/resume" as={NavLink}>
-            <FaFileAlt style={{ marginRight: "5px" }} /> Resume
+            <FaFileAlt style={{ marginRight: "8px" }} /> Resume
           </StyledLink>
         </StyledNav>
       </Container>
@@ -43,7 +42,7 @@ const StyledLink = styled(NavLink)`
   display: flex;
   align-items: center;
   font-weight: 300;
-  padding: 0px 20px;
+  padding: 0px 25px;
   color: #B3B3B3;
   text-decoration: none;
   font-size: 1.3rem;
