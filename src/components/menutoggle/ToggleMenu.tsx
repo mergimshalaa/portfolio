@@ -11,7 +11,7 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export function Menu() {
   const [show, setShow] = useState(false);
-  const isMobile = useMediaQuery({ maxWidth: 560 });
+  const isMobile = useMediaQuery({ maxWidth: 768 });
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -45,7 +45,6 @@ export function Menu() {
     </>
   );
 }
-
 
 const Icons = styled.div`
   display: flex;

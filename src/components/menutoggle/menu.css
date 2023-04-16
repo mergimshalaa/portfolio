@@ -1,5 +1,5 @@
 .menu-button {
-  background-color: rgb(7, 13, 38);
+    background-color: rgb(7, 13, 38);
     padding: 5px  0.5rem;
     border: none;
     border-radius: 0.25rem;
@@ -19,7 +19,6 @@
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
-  
   }
   
   

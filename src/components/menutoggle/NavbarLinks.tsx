@@ -3,8 +3,6 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { FaHome, FaUser, FaProjectDiagram, FaFileAlt } from "react-icons/fa";
 
-
-
   interface NavbarLinksProps {
     handleClose: () => void;
   }
