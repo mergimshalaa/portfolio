@@ -21,16 +21,16 @@ export function Navbar() {
       <Container className="d-flex justify-content-end align-items-center flex-grow-1" style={{paddingRight: '55px'}}>
         <StyledNav>
           <StyledLink to="/" as={NavLink}>
-            <FaHome style={{ marginRight: "8px" }} /> Home
+            <FaHome style={{ marginRight: "6px" }} /> Home
           </StyledLink>
           <StyledLink to="/about" as={NavLink}>
-            <FaUser style={{ marginRight: "8px" }} /> About
+            <FaUser style={{ marginRight: "6px" }} /> About
           </StyledLink>
           <StyledLink to="/projects" as={NavLink}>
-            <FaProjectDiagram style={{ marginRight: "8px" }} /> Projects
+            <FaProjectDiagram style={{ marginRight: "6px" }} /> Projects
           </StyledLink>
           <StyledLink to="/resume" as={NavLink}>
-            <FaFileAlt style={{ marginRight: "8px" }} /> Resume
+            <FaFileAlt style={{ marginRight: "6px" }} /> Resume
           </StyledLink>
         </StyledNav>
       </Container>
