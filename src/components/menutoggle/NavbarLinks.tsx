@@ -34,6 +34,7 @@ const StyledLink = styled(NavLink)<{ exact?: boolean }>`
   margin-right: 10px;
   margin-bottom: 30px;
   letter-spacing: 1px;
+  font-weight: 300;
 
   display: flex;
   align-items: center;

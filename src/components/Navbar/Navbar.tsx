@@ -42,7 +42,8 @@ export function Navbar() {
 const StyledLink = styled(NavLink)`
   display: flex;
   align-items: center;
-  padding: 0px 10px;
+  font-weight: 300;
+  padding: 0px 20px;
   color: #B3B3B3;
   text-decoration: none;
   font-size: 1.3rem;
