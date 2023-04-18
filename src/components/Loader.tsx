@@ -32,7 +32,7 @@ export const Loader: React.FC<Props> = ({ onFinish }) => {
         anime({
           targets: logoRef.current,
           opacity: [1, 0],
-          duration: 1000,
+          duration: 900,
           easing: "linear",
           complete: onFinish,
         });
