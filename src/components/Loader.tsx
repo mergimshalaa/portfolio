@@ -26,7 +26,7 @@ export const Loader: React.FC<Props> = ({ onFinish }) => {
     anime({
       targets: logoRef.current,
       opacity: [0, 1],
-      duration: 1500,
+      duration: 1100,
       easing: "linear",
       complete: () => {
         anime({
@@ -42,18 +42,12 @@ export const Loader: React.FC<Props> = ({ onFinish }) => {
 
   return (
     <>
-      <StyledBackground />
       <StyledLoader>
         <StyledLogo ref={logoRef} src={logopng} alt="Logo" />
       </StyledLoader>
     </>
   );
 };
-
-const StyledBackground = styled.div`
-  width: 100%;
-  height: 100%;
-`;
 
 const StyledLogo = styled.img`
   width: 25rem;
