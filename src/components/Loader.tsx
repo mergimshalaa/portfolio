@@ -26,19 +26,24 @@ export const Loader: React.FC<Props> = ({ onFinish }) => {
     anime({
       targets: logoRef.current,
       opacity: [0, 1],
-      duration: 1100,
+      duration: 1300,
       easing: "linear",
       complete: () => {
         anime({
           targets: logoRef.current,
           opacity: [1, 0],
-          duration: 900,
+          duration: 1100,
           easing: "linear",
-          complete: onFinish,
+          complete: () => {
+            setTimeout(() => {
+              onFinish();
+            }, 170);
+          },
         });
       },
     });
   };
+  
 
   return (
     <>
