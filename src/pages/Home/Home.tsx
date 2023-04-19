@@ -65,7 +65,7 @@ flex-grow: 1;
 display: flex;
 align-items: center;
 justify-content: start;
-height: 81.6vh;
+height: 77vh;
 
 @media (max-width: 560px) {
   height: 79vh;
