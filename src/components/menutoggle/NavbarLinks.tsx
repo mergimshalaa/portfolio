@@ -47,8 +47,10 @@ const StyledLink = styled(NavLink)<{ exact?: boolean }>`
   
   &.active {
     color: #fff;
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
-  }
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7),
+    0px 0px 20px rgba(255, 255, 255, 0.5),
+    0px 0px 30px rgba(255, 255, 255, 0.3);
+    }
 
   &:hover:not(.active) {
     color: white;
