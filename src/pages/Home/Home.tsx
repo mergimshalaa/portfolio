@@ -66,10 +66,6 @@ display: flex;
 align-items: center;
 justify-content: start;
 height: 77vh;
-
-@media (max-width: 560px) {
-  height: 78vh;
-}
 `;
 
 const Content = styled.div`
