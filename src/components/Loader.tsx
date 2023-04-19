@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
 import logopng from "../img/logo.png";
-import bgpng from "../img/bg.png";
 import anime from "animejs/lib/anime.es.js";
 
 interface Props {
@@ -48,11 +47,9 @@ export const Loader: React.FC<Props> = ({ onFinish }) => {
 
   return (
     <>
-    <StyledContainer src={bgpng} alt="Logo">
       <StyledLoader>
         <StyledLogo ref={logoRef} src={logopng} alt="Logo" />
       </StyledLoader>
-      </StyledContainer>
     </>
   );
 };
@@ -69,8 +66,3 @@ const StyledLoader = styled.div`
   transform: translate(-50%, -50%);
 `;
 
-const StyledContainer = styled.img`
-@media (max-width: 560px) {
-  height: 81.2vh;
-}
-`;
