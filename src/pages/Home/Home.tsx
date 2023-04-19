@@ -68,7 +68,7 @@ justify-content: start;
 height: 77vh;
 
 @media (max-width: 770px) {
-  height: 79vh;
+  height: 76vh;
 }
 `;
 
