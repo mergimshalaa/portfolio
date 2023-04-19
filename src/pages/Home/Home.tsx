@@ -65,10 +65,10 @@ flex-grow: 1;
 display: flex;
 align-items: center;
 justify-content: start;
-height: 81.6vh;
+height: 77vh;
 
-@media (max-width: 560px) {
-  height: 81.2vh;
+@media (max-width: 770px) {
+  height: 79vh;
 }
 `;
 
