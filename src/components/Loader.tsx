@@ -55,8 +55,8 @@ export const Loader: React.FC<Props> = ({ onFinish }) => {
 };
 
 const StyledLogo = styled.img`
-  width: 25rem;
-  height: 25rem;
+  width: 10rem;
+  height: 10rem;
 `;
 
 const StyledLoader = styled.div`
