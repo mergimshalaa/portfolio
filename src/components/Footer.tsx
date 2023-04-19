@@ -34,7 +34,7 @@ const FooterWrapper = styled.footer`
   right: 0;
   position: relative;
   width: 100%;
-  padding: 10px;
+  padding: 17.6px;
 `;
 
 const FooterText = styled.div`
