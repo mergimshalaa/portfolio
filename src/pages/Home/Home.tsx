@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Typed from "react-typed";
+import Typewriter from "typewriter-effect";
 
 export function Home() {
   return (
@@ -11,19 +11,20 @@ export function Home() {
             <FirstLetterStyle>S</FirstLetterStyle>hala
           </Title>
           <Subtitle>
-            <Typed
-              strings={[
-                "Frontend Developer.",
-                "Future Fullstack Developer.",
-                "HTML/CSS.",
-                "Javascript/Typescript.",
-                "React/Vue.",
-                "Node/GIT.",
-              ]}
-              typeSpeed={80}
-              backDelay={1000}
-              backSpeed={35}
-              loop
+            <Typewriter
+              options={{
+                strings: [
+                  "Frontend Developer.",
+                  "Future Fullstack Developer.",
+                  "HTML/CSS.",
+                  "Javascript/Typescript.",
+                  "React/Vue.",
+                  "Node/GIT.",
+                ],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 35,
+              }}
             />
           </Subtitle>
         </Content>
