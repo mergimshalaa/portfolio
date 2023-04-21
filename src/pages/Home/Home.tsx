@@ -24,6 +24,12 @@ export function Home() {
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 35,
+                delay: 100,
+              }}
+              onInit={(typewriter) => {
+                typewriter
+                  .changeDeleteSpeed(20)
+                  .start()
               }}
             />
           </Subtitle>
@@ -32,6 +38,7 @@ export function Home() {
     </>
   );
 }
+
 
 const Container = styled.div`
   flex-grow: 1;
