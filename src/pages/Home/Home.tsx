@@ -1,48 +1,7 @@
-import { useState, useEffect } from "react";
 import styled from "styled-components";
-
-const words = [
-  "Frontend Developer.",
-  "Future Fullstack Developer.",
-  "HTML/CSS.",
-  "Javascript/Typescript.",
-  "React/Vue.",
-  "Node/GIT.",
-];
+import Typed from "react-typed";
 
 export function Home() {
-  const [wordIndex, setWordIndex] = useState(0);
-  const [letterIndex, setLetterIndex] = useState(0);
-  const [isErasing, setIsErasing] = useState(false);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setLetterIndex((prevLetterIndex) => {
-        const currentWord = words[wordIndex];
-        const nextLetterIndex = isErasing
-          ? prevLetterIndex - 1
-          : prevLetterIndex + 1;
-
-        if (isErasing && nextLetterIndex === 0) {
-          setWordIndex((prevWordIndex) => (prevWordIndex + 1) % words.length);
-          setIsErasing(false);
-          return 0;
-        }
-
-        if (nextLetterIndex > currentWord.length) {
-          setIsErasing(true);
-          return currentWord.length;
-        }
-
-        return nextLetterIndex;
-      });
-    }, 100);
-
-    return () => clearInterval(interval);
-  }, [wordIndex, isErasing]);
-
-  const currentWord = words[wordIndex].slice(0, letterIndex);
-
   return (
     <>
       <Container>
@@ -51,25 +10,38 @@ export function Home() {
             <FirstLetterStyle>M</FirstLetterStyle>ergim{" "}
             <FirstLetterStyle>S</FirstLetterStyle>hala
           </Title>
-          <Subtitle>{currentWord}</Subtitle>
+          <Subtitle>
+            <Typed
+              strings={[
+                "Frontend Developer.",
+                "Future Fullstack Developer.",
+                "HTML/CSS.",
+                "Javascript/Typescript.",
+                "React/Vue.",
+                "Node/GIT.",
+              ]}
+              typeSpeed={80}
+              backDelay={1000}
+              backSpeed={35}
+              loop
+            />
+          </Subtitle>
         </Content>
       </Container>
     </>
   );
 }
 
-
-
 const Container = styled.div`
-flex-grow: 1;
-display: flex;
-align-items: center;
-justify-content: start;
-height: 77vh;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 77vh;
 
-@media (max-width: 560px) {
-  height: 78vh;
-}
+  @media (max-width: 560px) {
+    height: 75vh;
+  }
 `;
 
 const Content = styled.div`
@@ -129,7 +101,7 @@ const Subtitle = styled.h2`
   }
 
   @media (max-width: 380px) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 `;
 
