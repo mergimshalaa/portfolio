@@ -41,7 +41,7 @@ const Container = styled.div`
   height: 77vh;
 
   @media (max-width: 560px) {
-    height: 75vh;
+    height: 78vh;
   }
 `;
 
@@ -102,7 +102,7 @@ const Subtitle = styled.h2`
   }
 
   @media (max-width: 380px) {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 `;
 
