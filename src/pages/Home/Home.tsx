@@ -14,12 +14,12 @@ export function Home() {
             <Typewriter
               options={{
                 strings: [
-                  "Frontend Developer.",
-                  "Future Fullstack Developer.",
-                  "HTML/CSS.",
-                  "Javascript/Typescript.",
-                  "React/Vue.",
-                  "Node/GIT.",
+                  "Frontend Developer",
+                  "Future Fullstack Developer",
+                  "HTML/CSS",
+                  "Javascript/Typescript",
+                  "React/Vue",
+                  "Node/GIT",
                 ],
                 autoStart: true,
                 loop: true,
@@ -38,7 +38,6 @@ export function Home() {
     </>
   );
 }
-
 
 const Container = styled.div`
   flex-grow: 1;
@@ -59,15 +58,15 @@ const Content = styled.div`
   @media (max-width: 767px) {
     margin-right: 0;
   }
-
 `;
 
 const Title = styled.h1`
   font-size: 4rem;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: white;
   margin-bottom: 1rem;
   vertical-align: top;
+  font-family: 'Montserrat', sans-serif;
 
   @media (max-width: 875px) {
     font-size: 3rem;
@@ -91,6 +90,7 @@ const Subtitle = styled.h2`
   margin: 0;
   height: 4.5rem;
   vertical-align: top;
+  font-family: 'Montserrat', sans-serif;
 
   @media (max-width: 875px) {
     font-size: 2.5rem;
