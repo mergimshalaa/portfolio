@@ -72,6 +72,12 @@ const Logo = styled.img`
   margin-left: 5rem;
 
   @media (max-width: 768px) {
-    display: none;
+    margin-left: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 40px;
+    padding-right: 20px;
+    transform: translateY(-50%);
   }
 `;
