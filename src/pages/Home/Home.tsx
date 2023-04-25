@@ -27,9 +27,7 @@ export function Home() {
                 delay: 100,
               }}
               onInit={(typewriter) => {
-                typewriter
-                  .changeDeleteSpeed(20)
-                  .start()
+                typewriter.changeDeleteSpeed(20).start();
               }}
             />
           </Subtitle>
@@ -66,7 +64,7 @@ const Title = styled.h1`
   color: white;
   margin-bottom: 1rem;
   vertical-align: top;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   @media (max-width: 875px) {
     font-size: 3rem;
@@ -90,7 +88,7 @@ const Subtitle = styled.h2`
   margin: 0;
   height: 4.5rem;
   vertical-align: top;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   @media (max-width: 875px) {
     font-size: 2.5rem;
