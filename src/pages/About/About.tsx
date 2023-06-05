@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { CarouselPics } from "./Carousel";
 import { ToolsList } from "./ToolsList";
 import { FrontendList } from "./FrontendList";
+import { BackendList } from "./BackendList";
 
 export function About() {
   return (
@@ -37,6 +38,7 @@ export function About() {
         <CarouselPics />
       </Wrapper>
       <FrontendList />
+      <BackendList />
       <ToolsList />
     </>
   );

@@ -5,7 +5,7 @@ import "./techlist.css";
 export function FrontendList() {
   return (
     <Container className="text-center text-icons">
-      <h2 className="header-skills">Frontend</h2>
+      <h2 className="header-skills">FRONTEND</h2>
       <Row
         style={{
           justifyContent: "center",
