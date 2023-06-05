@@ -1,6 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
+import { DiGit, DiVisualstudio } from "react-icons/di";
+import { FaGithub } from "react-icons/fa";
+import { FiFigma } from "react-icons/fi";
 import "./techlist.css";
-import { DiVisualstudio, FiFigma, DiGit, FaGithub } from "react-icons/all";
 
 export function ToolsList() {
   return (
