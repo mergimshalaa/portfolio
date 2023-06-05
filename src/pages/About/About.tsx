@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { CarouselPics } from "./Carousel";
-import { TechList } from "./TechList";
+import { FrontendList } from "./FrontEndList";
 import { ToolsList } from "./ToolsList";
 
 export function About() {
@@ -36,7 +36,7 @@ export function About() {
 
         <CarouselPics />
       </Wrapper>
-      <TechList />
+      <FrontendList />
       <ToolsList />
     </>
   );
