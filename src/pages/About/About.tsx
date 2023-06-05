@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { CarouselPics } from "./Carousel";
-import { FrontendList } from "./FrontEndList";
 import { ToolsList } from "./ToolsList";
+import { FrontendList } from "./FrontendList";
 
 export function About() {
   return (
